@@ -5,7 +5,7 @@ load('BancoDeFiltros.mat')
 freq = 200;
 f = [BPF1 BPF2 BPF3 BPF4 BPF5 BPF6 BPF7 BPF8 BPF9 BPF10 BPF11 BPF12 BPF13 BPF14 BPF15 BPF16 BPF17 BPF18 BPF19 BPF20 BPF21 BPF22 BPF23 ];
 %  x = stmon(wavread('Acapella.wav'));
-x = wavread('voice.wav');
+x = audioread('voice.wav');
 % C = stmon(wavread('CARRIER.wav'));
 
 N = length(x);
